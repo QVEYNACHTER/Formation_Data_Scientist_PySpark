@@ -9,10 +9,10 @@ J'ai commencé par configurer une authentification multi-facteur et une clé d'a
 - Sécurité, sélection de la paire de clés EC2, de la fonction de service et du profil d'instance
 
 Le cluster est enfin créé, mais pas encore prêt à l'emploi. Il faut maintenant créer le tunnel SSH et proxy :
-- Ouverture le port 22 sur lequel écoute le serveur SSH
+- Ouverture du port 22 sur lequel écoute le serveur SSH
 - Connexion au noeud primaire à l'aide de SSH (dans le terminal)
 - Configuration de l'extension FoxyProxy pour emprunter le tunnel SSH
 
-On peut enfin ouvrir et exécuter le notebook depuis JupyterHub, hébergé sur le serveur EMR. En choisissant un kernel PySpark, une session Spark démarre à l'exécution de la première cellule (partie 4.10 et suite).
+On peut enfin ouvrir et exécuter le notebook depuis JupyterHub, hébergé sur le serveur EMR. En choisissant un kernel PySpark, une session Spark démarre à l'exécution de la première cellule (à partir de la partie 4.10).
 
 Afin de procéder à une réduction de dimensionnalité, je fais une ACP. En temps normal je choisirais k en fonction du pourcentage de variance cumulée expliquée, mais les coûts montent vite sur AWS donc j'ai arbitrairement choisi k=50. Les résultats sont stockés directement sur S3.
