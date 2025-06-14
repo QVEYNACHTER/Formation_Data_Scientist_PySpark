@@ -1,0 +1,1 @@
+Pour ce projet, on m'a chargé de concevoir et mettre en oeuvre un traitement de données dans un environnement Big Data sur le cloud. Une start-up Votre start-up souhaite se faire connaître en mettant à disposition du grand public une application mobile qui permettrait aux utilisateurs de prendre en photo un fruit et d'obtenir des informations sur celui-ci.
